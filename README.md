@@ -26,7 +26,6 @@
 > [!WARNING]
 > Disclaimers 🛡️:
 > - Use at your own risk. No guarantees are made regarding stability, compatibility, or safety. Always back up your data before installing anything.
-> - `Non-root` users may experience little to no effect due to system access limitations.
 > - These works are tested on specific devices only. Behavior on other devices may vary significantly.
 > - The author reserves the right to discontinue, modify, or remove any module or plugin at any time without prior notice.
 
