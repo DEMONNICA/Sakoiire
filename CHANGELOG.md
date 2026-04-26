@@ -1,5 +1,25 @@
-> `Changelog:`
+> Changelog:
 > - All significant changes to this project will be documented here.
+---
+
+> [3.0.0]
+>
+> - Added RAM-based adaptive `swappiness` tuning in `tweaks`.
+> - Added TCP congestion control with `bbr`/`cubic` fallback in `tweaks`.
+> - Added TCP optimization: `low_latency`, `tw_reuse`, `ecn`, `fin_timeout`, `keepalive`, `syn_retries` in `tweaks`.
+> - Added UDP buffer tuning (`udp_rmem_min`, `udp_wmem_min`) in `tweaks`.
+> - Added `net/core` optimization: `rmem`, `wmem`, `somaxconn`, `netdev_budget`, `optmem_max` in `tweaks`.
+> - Added shell process priority tuning via `ionice` and `renice` in `tweaks` and `univ`.
+> - Added `sync` and `drop_caches` after tuning in `tweaks`.
+> - Added pre-load for `dalvik-cache` and system fonts via `vmtouch -t` in `tweaks`.
+> - Changed vmtouch framework and lib64 from `-l` (lock) to `-t` (pre-load) to prevent RAM exhaustion.
+> - Replaced `.vm_backup` with `.tweaks_backup` covering all sysctl parameters (vm, net.ipv4, net.core, kernel).
+> - `uninstall.sh` now restores sysctl parameters from `.tweaks_backup` instead of hardcoded values.
+> - Moved plugin notification from `univ` to `service.sh`.
+> - Removed private DNS (Cloudflare) settings from `service.sh` and `uninstall.sh`.
+> - Fixed `thermal` self-kill issue with `SELF_PID` filter in `/proc` loop.
+> - Fixed `get_app_label` in `customize.sh` to use `aapt` directly instead of `$AAPT_BIN` variable, with `strings` as fallback.
+> - Added numbered comments across all scripts for consistency.
 ---
 
 > [2.0.0]
@@ -26,4 +46,3 @@
 > [1.0.0]
 >
 > - Initial release.
----
