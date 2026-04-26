@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/cd019d37-7631-417a-b6a3-97be7df34665)
+> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/30524676-0889-4064-8269-2ad8184f88fc" />
 
 > [!NOTE]
 > ```
@@ -7,20 +7,19 @@
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Reduces system logging and debugging overhead.
-> 2. Slightly reduces tracking activity.
-> 3. FSTRIM and BLKDISCARD storage optimization for faster read/write.
-> 4. Slightly reduces lag when playing games or multitasking.
-> 5. Disable MSM thermal driver and dexopt thermal cutoff for `root` only.
-> 6. CPU/GPU/DDR performance tuning for `root` only.
-> 7. I/O scheduler and queue optimization for `root` only.
-> 8. TCP, DNS, and WiFi network optimization.
-> 9. VM kernel memory tuning for better RAM management.
-> 10. Page cache and library locking via vmtouch for `root` only.
-> 11. Miscellaneous system tweaks for `root and non root`.
+> 1. Reduces system logging, debugging, and tracking overhead.
+> 2. VM kernel memory tuning with RAM-based adaptive `swappiness` for better RAM management.
+> 3. TCP/UDP and `net/core` network optimization for lower latency and better throughput.
+> 4. TCP congestion control with `bbr`/`cubic` fallback and full keepalive tuning.
+> 5. CPU/GPU/DDR performance and scheduler tuning for `root` only.
+> 6. I/O scheduler, queue, and storage optimization via FSTRIM and BLKDISCARD for `root` only.
+> 7. Thermal management and dexopt thermal cutoff disable for `root` only.
+> 8. Page cache pre-load for framework, libraries, dalvik-cache, and fonts via vmtouch for `root` only.
+> 9. Process priority tuning via `ionice` and `renice` for both shell and system processes.
+> 10. Miscellaneous system tweaks for `root and non root`.
 
 > [!TIP]
-> 1. Supports `AxManager` `Non-Root or Root`.
+> 1. Supports `AxManager` and `FolkPure` — `Non-Root or Root`.
 > 2. Minimum Android `10 sdk 29`.
 
 > [!WARNING]
