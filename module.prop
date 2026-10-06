@@ -1,7 +1,7 @@
 id=SEKOIIRE
 name=Sekoiire
-version=3.0.0
-versionCode=300
+version=5.0.0
+versionCode=500
 author=@illumi
-description=Reduce the load on your device to be a little better than before to be more optimal.
+description=A deep system-level performance plugin for smoother, more efficient devices.
 axeronPlugin=666
