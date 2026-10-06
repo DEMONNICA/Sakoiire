@@ -2,43 +2,44 @@
 
 > [!NOTE]
 > ```
-> Reduce the load on your device to be a little better than before to be more optimal.
+> A deep system-level performance plugin for smoother, more efficient devices.
 > ```
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Reduces system logging, debugging, and tracking overhead.
-> 2. VM kernel memory tuning with RAM-based adaptive `swappiness` for better RAM management.
-> 3. TCP/UDP and `net/core` network optimization for lower latency and better throughput.
-> 4. TCP congestion control with `bbr`/`cubic` fallback and full keepalive tuning.
-> 5. CPU/GPU/DDR performance and scheduler tuning for `root` only.
-> 6. I/O scheduler, queue, and storage optimization via FSTRIM and BLKDISCARD for `root` only.
-> 7. Thermal management and dexopt thermal cutoff disable for `root` only.
-> 8. Page cache pre-load for framework, libraries, dalvik-cache, and fonts via vmtouch for `root` only.
-> 9. Process priority tuning via `ionice` and `renice` for both shell and system processes.
-> 10. Miscellaneous system tweaks for `root and non root`.
+> 1. Less background work wasted on logging and diagnostics, so more of your CPU and battery goes to what you actually use.
+> 2. Smoother screen rendering with fewer hidden performance-tracing tasks running behind the scenes.
+> 3. Smarter RAM handling, so apps stay in memory longer and reopen faster instead of reloading from scratch.
+> 4. Faster, more responsive internet with lower lag in browsing, streaming, and online games.
+> 5. More stable connections that hold up better on weak or changing networks, with fewer random drops.
+> 6. Peak performance on demand, with the processor, graphics, and memory kept ready instead of ramping up late.
+> 7. Better use of compressed swap memory, so heavy multitasking feels less sluggish.
+> 8. Quicker app loading and file access, with storage kept tidy to avoid slowdowns over time.
+> 9. Sustained performance during long gaming or heavy-use sessions, since the device is less likely to slow itself down when warm. The device may run hotter.
+> 10. Stock thermal limits are neutralized at the source, so they cannot quietly re-impose slowdowns after a reboot.
+> 11. Frequently used system data is loaded ahead of time, so apps and the system open faster.
+> 12. A more responsive system under load, with important tasks served first and background jobs kept out of the way.
+> 13. Memory and app-process limits adapted to your device's RAM, for fewer unexpected app closures and better multitasking.
+> 14. Battery saver kicks in at a more sensible level, so you are warned earlier before running low.
+> 15. A snappier feel, with quicker transitions and less waiting on screen animations.
+> 16. More reliable WiFi, with fewer failed connection attempts when joining a network.
+> 17. Fewer interruptions from app error pop-ups and less background noise.
 
 > [!TIP]
-> 1. Supports `AxManager` and `FolkPure` — `Non-Root or Root`.
+> 1. Supports `AxManager` and their forks — `Non-Root or Root`.
 > 2. Minimum Android `10 sdk 29`.
 
 > [!WARNING]
+> 1. If you do not fully understand what a modification does, do not apply it.
+> 2. Always have a recovery solution ready — TWRP, ADB, or fastboot — before proceeding.
+> 3. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
+> 4. System modifications can be unpredictable. What works on one device may break another.
+> 5. Any modification applied to the system is your decision. Think before you act.
+> 6. The developer takes no responsibility for any damage, data loss, or device malfunction caused by the use of these works.
+> 7. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
+
+> [!CAUTION]
 > Disclaimers 🛡️:
 > - Use at your own risk. No guarantees are made regarding stability, compatibility, or safety. Always back up your data before installing anything.
 > - These works are tested on specific devices only. Behavior on other devices may vary significantly.
 > - The author reserves the right to discontinue, modify, or remove any module or plugin at any time without prior notice.
-
-> [!CAUTION]
-> Warning ☢️:
-> 1. The developer takes no responsibility for any damage, data loss, or device malfunction caused by the use of these works.
-> 2. System modifications can be unpredictable. What works on one device may break another.
-> 3. Always have a recovery solution ready — TWRP, ADB, or fastboot — before proceeding.
-> 4. If you do not fully understand what a modification does, do not apply it.
-> 5. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
-> 6. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
-> 7. Any modification applied to the system is your decision. Think before you act.
-
-> Download 📦:        
-> - [Download now Sekoiire.](https://shrinkme.click/tIfkk)
-> - [For Magisk Modules or other Plugins, please visit here.](https://t.me/Demoniica)
-----
